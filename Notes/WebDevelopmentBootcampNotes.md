@@ -48,3 +48,55 @@ HTML, CSS, and Javascript
 1. Adds the logic and interactivity to a webpage
 1. The "verbs" of a webpage
 
+# Introduction to HTML
+
+## Objectives
+1. Write properly structured HTML documents
+1. Write common closing and self closing tags
+1. Recreate a simple website based on a provided photo
+
+## HTML
+
+### Objectives
+1. Simple HTML Documents
+1. Closing and Self Closing Tags
+1. Tags with Attributes
+1. MDN as a Reference
+1. Given an image, write the corresponding HTML
+
+### History
+1. Created 1989/1990
+1. Allowing publishing and exchanging of scientific and technical documents
+1. Allowed electronic linking of documents via hyperlinks
+
+### The General Rule
+1. <tagName> Some Content </tagName>
+
+
+## Mozilla Development Network (MDN)
+[Click here for reference to MDN intro to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+
+## HTML Boilerplate and Comments
+<!DOCTYPE html> 
+<html>
+<head>
+<!-- Metadata goes here -->
+	<title></title>
+</head>
+<body>
+<!-- Content goes here -->
+</body>
+</html>
+
+1. html - root element (all other elements are descenendants of root)
+1. head - contains all the metadata
+1. body - contains all the content
+
+
+## Div and Span
+1. div - general container for flow content that does not inherently represent anything, but is used to group things
+1. span - does not require its own line (not a block level container like div is)
+
+
+## Attributes
+These are additional information in tags (Ex. id, src, href).
