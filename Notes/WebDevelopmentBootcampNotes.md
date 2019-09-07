@@ -9,7 +9,7 @@
 1. Install Google Chrome
 1. Install Sublime Text 3
 
-##Internet Basics
+## Internet Basics
 
 ### Objectives
 1. Understand how the internet works at a high level
@@ -74,9 +74,10 @@ HTML, CSS, and Javascript
 
 
 ## Mozilla Development Network (MDN)
-[Click here for reference to MDN intro to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+[Click here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) for reference to MDN Intro to HTML
 
 ## HTML Boilerplate and Comments
+```
 <!DOCTYPE html> 
 <html>
 <head>
@@ -87,6 +88,7 @@ HTML, CSS, and Javascript
 <!-- Content goes here -->
 </body>
 </html>
+```
 
 1. html - root element (all other elements are descenendants of root)
 1. head - contains all the metadata
@@ -97,6 +99,32 @@ HTML, CSS, and Javascript
 1. div - general container for flow content that does not inherently represent anything, but is used to group things
 1. span - does not require its own line (not a block level container like div is)
 
-
 ## Attributes
 These are additional information in tags (Ex. id, src, href).
+
+## More on this Section...
+See code for demonstration of the above notes.
+
+#Intermediate HTML
+
+## Objectives
+1. Write valid HTML Tables
+1. Wrtie validated HTML Forms using form, input, select, and label tags
+
+
+## Form Attributes
+1. action - where to send the data
+1. method - type of HTTP request to send
+
+## Input Attributes
+1. types - text, date, color, file, checkbox, password, etc.
+
+## Labels
+Allow you to add captions to forms.
+
+## Simple Validations
+1. The required attribute valiates that an input is not empty
+1. There are type validations that verify they type of entry
+
+## More on this Section...
+See code for demonstration of the above notes.
